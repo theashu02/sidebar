@@ -106,6 +106,7 @@
   align-items: center;
   background-color: blue;
   color: whitesmoke;
+  cursor: pointer;
   width: 180px;
   transition: 0.4s;
   border-radius: 10px;
