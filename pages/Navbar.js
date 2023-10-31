@@ -9,30 +9,39 @@ const rubik = Rubik({
 
 export default function Navbar() {
   return (
-    <div className={styles.sidenavcontainer}>
-      <div className={styles.navupper}>
-        <div className={styles.navmenu}>
-          <a className={styles.menuitem}>
-            <p className={rubik.className}>Dashboard</p>
-          </a>
-          <a className={styles.menuitem}>
-            <p className={rubik.className}>Approval Application</p>
-          </a>
-          <a className={styles.menuitem}>
-            <p className={rubik.className}>Join/Create a meet</p>
-          </a>
-          <a className={styles.menuitem}>
-            <p className={rubik.className}>Complaints/Issue</p>
-          </a>
-          <a className={styles.menuitem}>
-            <p className={rubik.className}>Important Links</p>
-          </a>
+    <div>
+      <div className={styles.sidenavcontainer}>
+        <div className={styles.navupper}>
+          <div className={styles.navmenu}>
+            <a className={styles.menuitem}>
+              <p className={rubik.className}>Dashboard</p>
+            </a>
+            <a className={styles.menuitem}>
+              <p className={rubik.className}>Approval Application</p>
+            </a>
+            <a className={styles.menuitem}>
+              <p className={rubik.className}>Join/Create a meet</p>
+            </a>
+            <a className={styles.menuitem}>
+              <p className={rubik.className}>Complaints/Issue</p>
+            </a>
+            <a className={styles.menuitem}>
+              <p className={rubik.className}>Important Links</p>
+            </a>
+          </div>
         </div>
-      </div>
-      <div className={styles.navfooter}>
+        <div className={styles.navfooter}>
           <a className={styles.footer}>
             <p className={rubik.className}>SignOut</p>
           </a>
+        </div>
+      </div>
+      <div className={styles.right}>
+        <div className={styles.row}>
+          <div className={styles.boox}>Universities/Institute Control</div>
+          <div className={styles.boox}>Courses</div>
+          <div className={styles.boox}>Curriculum Designers</div>
+        </div>
       </div>
     </div>
   );

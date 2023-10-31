@@ -1,8 +1,10 @@
 .sidenavcontainer{
   background-color: #09273a;
   width: 20%;
+  top: 0;
+  left: 0;
   height: 100vh;
-  position: relative;
+  position: absolute;
   transition: 0.4s;
 }
 
@@ -82,5 +84,51 @@
   font-weight: 400;
   transition: 0.1s;
 }
+
+.right{
+  position: absolute;
+  width: 80%;
+  height: 100vh;
+  background-color: #113065;
+  right: 0;
+  top: 0;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.boox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  color: whitesmoke;
+  width: 180px;
+  transition: 0.4s;
+  border-radius: 10px;
+  font-size: large;
+  height: 180px;
+  /* margin-right: 10px; */
+  margin:auto auto;
+  margin-top: 20%;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 1px solid grey;
+  /* margin-bottom: 50%; */
+}
+
+.boox:hover{
+  width: 189px;
+  height: 189px;
+  transition: 0.2s;
+  border-radius: 12px;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* .boox:last-child{
+  /* margin-right: 0; */
 
 
