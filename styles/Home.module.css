@@ -57,6 +57,7 @@
 }
 
 .navfooter{
+  display: flex;
   position: absolute;
   bottom: 3%;
   cursor: pointer;
